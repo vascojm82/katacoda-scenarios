@@ -2,10 +2,9 @@ This is your first step.
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
+/** Copy all the code below to liri.js **/
 
 <code>
-/** Copy all the code below to liri.js **/
 let keys = {
   spotify : {
     id: "9b4c8a2596954f558052657bfc63538a",
@@ -15,7 +14,6 @@ let keys = {
     key: "9949063a"
   }
 }
-
 let Spotify = require('node-spotify-api'),
     request = require('request'),
     moment = require('moment'),
@@ -93,9 +91,7 @@ let evaluate = (value) => {
           break;
   }
 }
-
 if(args[1] === "" || args[1] === undefined)
   args[1] = 'The Sign';
-
 evaluate(args);
 </code>
