@@ -16,13 +16,8 @@
     }
   },
   "assets": {
-      "client": [
-        {
-          "file": "app.js",
-          "target": "~/"
-        }
-      ]
-    }
+    "file": "app.js",
+    "target": "~/"
   },
   "files": [
     "app.js"
