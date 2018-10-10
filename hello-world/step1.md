@@ -26,7 +26,6 @@ let Spotify = require('node-spotify-api'),
     ],
     spotify = new Spotify(keys.spotify),
     bandsInTownQueryURL = 'https://rest.bandsintown.com/artists/' + args[1] + '/events?app_id=codingbootcamp';
-
 let searchSpotify = (song) => {
   spotify.search({ type: 'track', query: song, limit: 1 })
     .then((response) => {
@@ -36,7 +35,6 @@ let searchSpotify = (song) => {
       console.log(err);
     });
 }
-
 let searchBandsInTown = (queryURL) => {
   request(queryURL, (error, response, body) => {
     if(error)
@@ -46,7 +44,6 @@ let searchBandsInTown = (queryURL) => {
     }
   })
 }
-
 let searchIMDB = (movie_name) => {
   imdb.get(
     { name: movie_name },
@@ -59,7 +56,6 @@ let searchIMDB = (movie_name) => {
       console.log(`Plot: ${response.plot}`);
     }).catch(err => console.log(err));
 }
-
 let readfile = (filename) => {
   fs.readFile(filename, "utf8", (error, data) => {
     if(data){
@@ -74,7 +70,6 @@ let readfile = (filename) => {
     }
   });
 }
-
 let evaluate = (value) => {
   switch(value[0]) {
       case 'concert-this':
