@@ -89,4 +89,4 @@ let evaluate = (value) => {
 if(args[1] === "" || args[1] === undefined)
   args[1] = 'The Sign';
 evaluate(args);
-</code>{{copy}}
+</code>
