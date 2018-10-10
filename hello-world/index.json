@@ -15,20 +15,7 @@
       "text": "finish.md"
     }
   },
-  "assets": {
-    "client": [
-      {
-        "file": "app.js",
-        "target": "~/"
-      }
-    ],
-    "host01": [
-      {
-        "file": "app.js",
-        "target": "~/"
-      }
-    ]
-  },
+  "assets": { "host01": [ {"file": "*", "target": "/root"} ] },
   "environment": {
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
