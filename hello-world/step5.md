@@ -2,6 +2,6 @@ This is your fourth step.
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
+Run the LIRI BOT APP to look for a certain movie
 
 `node liri.js movie-this gladiator`{{execute}}

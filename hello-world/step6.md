@@ -2,6 +2,6 @@ This is your sixth step.
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
+Run the LIRI BOT APP to look for a certain song in Spotify
 
-`node liri.js spotify-this-song Until it sleeps`{{execute}}
+`node liri.js spotify-this-song Battery`{{execute}}

@@ -2,8 +2,8 @@ This is your second step.
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
+/*** Copy the below code to 'random.txt' ***/
 
 `
-spotify-this-song The Unforgiven
+spotify-this-song Until it Sleeps
 `
