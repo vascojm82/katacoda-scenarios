@@ -19,13 +19,13 @@
       "client": [
         {
           "file": "*",
-          "target": "~/"
+          "target": "/root"
         }
       ],
       "host01": [
         {
           "file": "*",
-          "target": "~/"
+          "target": "/root"
         }
       ]
   },
