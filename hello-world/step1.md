@@ -44,7 +44,6 @@ let searchBandsInTown = (queryURL) => {
       console.log(error);
     else{
       const res = JSON.parse(body);
-
       console.log('Venue: ' + res[0].venue.name);
       console.log('Venue location: ' + res[0].venue.city + ', ' + res[0].venue.region +'. ' + res[0].venue.country);
       console.log('Date : ' + res[0].datetime);
