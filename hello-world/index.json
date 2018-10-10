@@ -15,6 +15,21 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+      "client": [
+        {
+          "file": "app.js",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "app.js",
+          "target": "~/"
+        }
+      ]
+    }
+  },
   "files": [
     "app.js"
   ],
