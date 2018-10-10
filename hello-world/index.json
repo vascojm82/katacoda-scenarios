@@ -3,10 +3,23 @@
   "description": "LIRI BOT APP",
   "time": "2 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "steps": [
+		{ "title": "Step 1 - Copy all the code to 'liri.js'",
+		  "text": "step1.md" 
+		},
+		{ "title": "Step 2 - Copy all the text to 'random.txt'",
+		  "text": "step2.md" 
+		},
+		{ "title": "Step 3 - Copy all the text to 'package.json'",
+		  "text": "step3.md" 
+		},
+		{ "title": "Step 4 - Run npm install",
+		  "text": "step4.md" 
+		},
+		{ "title": "Step 5 - Run the liri app",
+		  "text": "step5.md" 
+		}
+	],
     "intro": {
       "text": "intro.md",
       "credits": ""
@@ -15,25 +28,16 @@
       "text": "finish.md"
     }
   },
-  "assets": {
-      "client": [
-        {
-          "file": "app.js",
-          "target": "~/"
-        }
-      ],
-      "host01": [
-        {
-          "file": "app.js",
-          "target": "~/"
-        }
-      ]
-  },
+  "files": [
+    "liri.js",
+	"random.txt",
+	"package.json"
+  ],
   "environment": {
     "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "node6"
   }
 }
