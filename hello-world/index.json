@@ -16,8 +16,18 @@
     }
   },
   "assets": {
-    "file": "app.js",
-    "target": "~/"
+    "client": [
+      {
+        "file": "app.js",
+        "target": "~/"
+      }
+    ],
+    "host01": [
+      {
+        "file": "app.js",
+        "target": "~/"
+      }
+    ]
   },
   "environment": {
     "uilayout": "editor-terminal",
