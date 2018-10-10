@@ -18,6 +18,15 @@
 		},
 		{ "title": "Step 5 - Run the liri app",
 		  "text": "step5.md" 
+		},
+		{ "title": "Step 6 - Run the liri app",
+		  "text": "step6.md" 
+		},
+		{ "title": "Step 7 - Run the liri app",
+		  "text": "step7.md" 
+		},
+		{ "title": "Step 8 - Run the liri app",
+		  "text": "step8.md" 
 		}
 	],
     "intro": {
