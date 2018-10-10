@@ -4,7 +4,7 @@ This is your first step.
 
 This is an _example_ of creating a scenario and running a **command**
 
-`
+<code>
 /** Copy all the code below to liri.js **/
 let keys = {
   spotify : {
@@ -98,4 +98,4 @@ if(args[1] === "" || args[1] === undefined)
   args[1] = 'The Sign';
 
 evaluate(args);
-`
+</code>
