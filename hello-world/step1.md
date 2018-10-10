@@ -49,11 +49,11 @@ let searchIMDB = (movie_name) => {
     { name: movie_name },
     { apiKey: keys.imdb.key, timeout: 30000 })
     .then(response => {
-      console.log(`TItle: ${response.title}`);
-      console.log(`Year: ${response.year}`);
-      console.log(`Rating: ${response.rating}`);
-      console.log(`Country: ${response.country}`);
-      console.log(`Plot: ${response.plot}`);
+      console.log('Title: ' + response.title);
+      console.log('Year: ' + response.year);
+      console.log('Rating: ' + response.rating);
+      console.log('Country: ' + response.country);
+      console.log('Plot: ' + response.plot);
     }).catch(err => console.log(err));
 }
 let readfile = (filename) => {
@@ -89,4 +89,4 @@ let evaluate = (value) => {
 if(args[1] === "" || args[1] === undefined)
   args[1] = 'The Sign';
 evaluate(args);
-</code>
+</code>{{copy}}
