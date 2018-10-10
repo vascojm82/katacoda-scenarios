@@ -2,10 +2,9 @@ This is your third step.
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
-
-`
 /*** Copy the below code to 'package.json' ***/
+
+<code>
 {
   "name": "node-hmwk1",
   "version": "1.0.0",
@@ -25,5 +24,4 @@ This is an _example_ of creating a scenario and running a **command**
     "request": "^2.88.0"
   }
 }
-
-`
+</code>
