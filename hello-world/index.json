@@ -18,13 +18,13 @@
   "assets": {
       "client": [
         {
-          "file": "*",
+          "file": "app.js",
           "target": "~/"
         }
       ],
       "host01": [
         {
-          "file": "*",
+          "file": "app.js",
           "target": "~/"
         }
       ]
