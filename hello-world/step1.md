@@ -11,7 +11,7 @@ let keys = {
     secret: <ENTER HERE>
   },
   imdb : {
-    key: "9949063a"
+    key: "<ENTER HERE>"
   }
 }
 let Spotify = require('node-spotify-api'),
