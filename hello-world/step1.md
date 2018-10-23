@@ -7,8 +7,8 @@ This is your first step.
 <code>
 let keys = {
   spotify : {
-    id: "9b4c8a2596954f558052657bfc63538a",
-    secret: "8bbab30f7e5749fdab9dc175070eb345"
+    id: <ENTER HERE>,
+    secret: <ENTER HERE>
   },
   imdb : {
     key: "9949063a"
